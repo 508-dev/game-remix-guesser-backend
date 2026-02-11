@@ -1,6 +1,9 @@
-FROM python:3.8-slim-buster
+FROM python:3.8-slim-bookworm
 
 ENV PATH /usr/local/lib/python3.8/site-packages:$PATH
+
+RUN apt-get update && apt-get install -y gcc python3-dev wget && rm -rf /var/lib/apt/lists/*
+
 
 COPY requirements.txt /requirements.txt
 
