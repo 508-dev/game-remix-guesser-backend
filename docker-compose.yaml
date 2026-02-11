@@ -7,7 +7,7 @@ services:
       # Use this to ensure Coolify builds correctly if Dockerfile isn't standard
       dockerfile: Dockerfile 
     ports:
-      - "8000:8000"
+      - "${API_PORT:-8000}:8000"
     env_file:
       - .env
     depends_on:
