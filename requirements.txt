@@ -35,6 +35,6 @@ SQLAlchemy-Utils==0.37.8
 starlette==0.14.2
 typing-extensions==3.10.0.0
 typing-inspect==0.7.1
-urllib3==1.26.6
+urllib3==2.6.3
 uvicorn[standard]==0.14.0
 Werkzeug==2.0.1
