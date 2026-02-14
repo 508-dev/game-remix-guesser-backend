@@ -27,7 +27,7 @@ pycparser==2.20
 pydantic==1.8.2
 pyparsing==2.4.7
 PyYAML==6.0
-requests==2.26.0
+requests==2.32.4
 rsa==4.7.2
 six==1.16.0
 SQLAlchemy==1.4.21
