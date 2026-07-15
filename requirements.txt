@@ -37,4 +37,4 @@ typing-extensions==3.10.0.0
 typing-inspect==0.7.1
 urllib3==2.6.3
 uvicorn[standard]==0.14.0
-Werkzeug==3.1.5
+Werkzeug==3.1.6
